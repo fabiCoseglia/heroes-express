@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*HOME*/
+body{
+    background-color: #dedede
+}
+
+h1{
+    background-color: #F66B0E;
+    text-align: center;
+    color: #EFEFEF;
+    font-family: sans-serif;
+    letter-spacing: 15px;
+    height: 40px;
+    font-size: 40px;
+}
+
+.menu{
+    background-color: #F66B0E;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+li{
+    list-style: none;
+    
+}
+
+.aMenu{
+    text-decoration: none;
+    color: #EFEFEF;
+    font-family: sans-serif;
+    margin: 25px;
+}
+
+
+.bannerImg{
+    width: 100%;
+    height: 250px;
+    margin-top: 15px;
+}
+
+img{
+    width: 70%;
+    height: 250px;
+    
+    
+}
+
+.columnContainer{
+    display: flex;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+.column{
+    padding: 0px;
+    justify-content: center;
+    
+}
+.imgHero{
+    margin-top: 15px;
+}
+
+
+/*HOVER*/
+
+.aMenu:hover{
+    color:#205375;
+    text-decoration: underline;
+}
+
+.imgHero:hover{
+    width: 72%;
+    box-shadow: 5px 6px rgb(114, 113, 113);
+    transition: 1s;
+    
+}
+
+/*Hero Pag*/
+
+.divContainer{
+    width: 80%;
+    height: 230px;
+    display: flex;
+    border: black;
+    margin-top: 100px;
+    margin-left: 120px;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.lorem{
+    margin-left: 15px;
+}
+
+.pictureImg{
+    
+    margin-left: 25px;
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+    
+}
+
+h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 48px;
+
+}
